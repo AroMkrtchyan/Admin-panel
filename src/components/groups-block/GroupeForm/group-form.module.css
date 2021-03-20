@@ -1,0 +1,96 @@
+.groupForm {
+    position: absolute;
+    width: 783px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    color: #fff;
+}
+.groupFormHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #2A2B34;
+}
+.groupFormTitle {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #EFEFEF
+}
+.gropeFormClose {
+    cursor: pointer;
+}
+.groupFormContent {
+    background-color: #383A45;
+    padding: 20px;
+}
+.groupformShade {
+    width: 438px;
+}
+.groupformCleanliness {
+    width: 641px;
+}
+.sliderTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.bottomBlockWrapper {
+    background: #3F414D;
+    padding: 15px;
+}
+.groupFormFlags {
+    margin: 20px 0;
+}
+.groupFormFlags > img {
+    margin-right: 7px;
+    cursor: pointer;
+}
+.inputTitle {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.FormInputWrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+.formInputTitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.FormInputWrapper > div{
+    margin-right: 10px;
+}
+.FormInputWrapper > div >  input {
+    width: 211px;
+    height: 32px;
+    background: #545662;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px;
+}
+.groupformButton {
+    margin-left: 15px;
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px;
+    outline: none;
+    background-color: #545662;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

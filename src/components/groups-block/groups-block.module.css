@@ -1,0 +1,77 @@
+.groupBlock {
+    background-color: rgba(56, 58, 69, 0.56);
+    width: 100%;
+    margin-top: 30px;
+    padding: 18px;
+    color:#fff;
+}
+.groupBlockTitle {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.groupBlockFlags {
+    margin: 20px 0;
+}
+.groupBlockFlags > img {
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+
+table, tr, td, tbody, thead, tfoot{
+    border: 1px solid #9E9E9E;
+    border-collapse: collapse;
+}
+table input,
+table select {
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    padding: 3px;
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+}
+table select option {
+    outline: none;
+    height: 100%;
+    background-color: #595962;
+}
+
+.tableTitle {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #F5961B;
+}
+thead > tr > th {
+    margin: 0 auto;
+    height: 32px;
+}
+tbody > tr > td {
+    height: 80px;
+    background-color: #545662;
+}
+.imageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px;
+    text-align: center;
+}
+.imageSection > div > p {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+.imageSection  >div:nth-child(1) {
+    margin-right: 5px;
+}
+.plusIcon {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 100%;
+    font-size: 26px;
+    font-weight: bold;
+}

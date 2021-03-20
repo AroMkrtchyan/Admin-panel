@@ -1,0 +1,39 @@
++
+.priceList {
+
+}
+.priceListTitle {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.priceListItemWrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.addListItem {
+    cursor: pointer;
+    font-size: 26px;
+}
+.priceListItem {
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.priceListItem > div{
+    padding: 5px;
+    background-color: #595962;
+    border-radius: 2px;
+}
+.priceListItem > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #383A45;
+}
+.priceListItem > div:nth-child(2){
+    padding: 5px 7px 9px;
+}
+.priceListItem > div:nth-child(2) > img {
+    margin-right: 20px;
+}

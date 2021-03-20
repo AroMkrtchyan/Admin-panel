@@ -1,0 +1,8 @@
+.rightBlock {
+    background-color: #383A45;
+    width: 64px;
+    position: absolute;
+    top: 64px;
+    bottom: 0;
+    right: 0;
+}

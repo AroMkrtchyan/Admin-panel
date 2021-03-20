@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+.App {
+    background-color: #E5E5E5;
+    position: relative;
+    min-height: calc(100vh - 64px);
+}
+
+/*___________range slider custom styles start__________*/
+span.MuiSlider-markLabel {
+    top: -26px ;
+    color: #FFFFFF ;
+    font-size: 18px ;
+}
+span.MuiSlider-rail {
+    height: 4px;
+    background-color: #545662;
+    border-radius: 100px;
+}
+span.MuiSlider-thumb {
+    width: 20px;
+    height: 20px;
+    margin-top: -8px;
+}
+span.MuiSlider-root {
+    color: #F5961B;
+    transition: box-shadow 150ms cubic-bezier(245, 150, 27, 1) 0ms;
+}
+span.MuiSlider-thumb:hover {
+    box-shadow: 0 0 0 8px rgba(245, 150, 27, 0.31)
+}
+span.MuiSlider-mark{
+    width: 4px;
+    height: 4px;
+}
+span.MuiSlider-track {
+    height: 4px;
+}
+span.MuiSlider-root {
+    height: 4px;
+}
+/*___________range slider custom styles end__________*/

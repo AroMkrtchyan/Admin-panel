@@ -1,0 +1,50 @@
+.contentTitle {
+    color: #ffffff;
+}
+.contentTitle > p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.changeColor {
+    display: inline-block;
+    position: relative;
+}
+.changeColorList {
+    display: inline-block;
+    margin-top: 30px;
+    border-bottom: 2px solid #383A45;
+
+}
+.changeColorList > li {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.changeColorList > li:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #F5961B;
+    border-radius: 100px;
+}
+.listItemAdd {
+    position: absolute;
+    right: -20px;
+    bottom: -9px;
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #383A45;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

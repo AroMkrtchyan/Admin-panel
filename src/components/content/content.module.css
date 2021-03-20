@@ -1,0 +1,6 @@
+.content {
+    background-color: #595962;
+    padding: 104px;
+    width: 100%;
+    min-height: calc(100vh - 64px);
+}

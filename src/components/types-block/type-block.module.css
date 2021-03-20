@@ -1,0 +1,9 @@
+
+.typesBlock {
+    position: relative;
+    background-color: rgba(56, 58, 69, 0.56);
+    width: 100%;
+    margin-top: 30px;
+    padding: 18px;
+    color:#fff;
+}

@@ -1,0 +1,52 @@
+.addNewPrice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 783px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    transform: translate(-50%, -50%);
+}
+.addNewPriceHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #2A2B34;
+}
+.addNewPriceTitle {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #EFEFEF;
+}
+.addNewPriceClose {
+    cursor: pointer;
+}
+.addNewPriceContent {
+    background-color: #383A45;
+    padding: 15px;
+}
+.currencySelect {
+    width: 132px;
+    outline: none;
+    height: 32px;
+    background-color: #595962;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.addNewPriceFormButton {
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px;
+    outline: none;
+    background-color: #545662;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin: 15px auto;
+    cursor: pointer;
+}
+

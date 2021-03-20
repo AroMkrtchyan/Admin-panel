@@ -1,0 +1,15 @@
+
+.leftBlock {
+    width: 64px;
+    height: 100%;
+    background-color: #383A45;
+    padding: 20px;
+    margin-bottom: 64px;
+    position: absolute;
+    left: 0;
+    top: 64px;
+    bottom: 64px;
+}
+.leftBlock > div {
+    padding: 20px 0;
+}

@@ -16,11 +16,16 @@
     margin-right: 7px;
     cursor: pointer;
 }
+.infoTable {
+    margin-bottom: 10px;
+}
 
-
-table, tr, td, tbody, thead, tfoot{
+table, tr, td, th, tbody, thead, tfoot{
     border: 1px solid #9E9E9E;
     border-collapse: collapse;
+}
+td {
+    min-width: 100px;
 }
 table input,
 table select {
@@ -47,7 +52,12 @@ thead > tr > th {
     margin: 0 auto;
     height: 32px;
 }
-tbody > tr > td {
+.infoTable p {
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.infoTable tbody > tr > td {
     height: 80px;
     background-color: #545662;
 }
@@ -74,4 +84,14 @@ tbody > tr > td {
     line-height: 100%;
     font-size: 26px;
     font-weight: bold;
+}
+.priceTable tr {
+    height: 53px;
+    text-align: center;
+}
+.priceTable > tbody > tr:nth-child(1) > td {
+    background-color: #535450;
+}
+.priceTable > tbody > tr > td:first-child {
+    background: rgba(123, 39, 39, 0.2);
 }
